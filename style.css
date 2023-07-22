@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+    margin-left: 300px;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 0%;
+    width: 100px;
+}
+
+.nav__links li a{
+    transition: all 0.3 ease 0s;
+
+}
+
+.nav__links li a:hover {
+    color: rgba(57, 16, 107, 0.512);
+
+}
+
+button{
+    width: 200px;
+    padding: 9px 25px;
+    background-color: rgba(28, 7, 48, 0.902);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    margin-right: 100px;
+    color: #f1f1f1;
+    font-weight: 50;
+
+}
+
+.section1{
+    width: 1386px;
+    height: 742px;
+     margin-top: 40px ;
+     margin-left: 27px;
+     border-radius: 50px;
+     background-image:url(/images/firstDiv.png);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+
+.sec1_div1{
+    background-color:transparent;
+    width: 480px;
+    height: 303.3608703613281px ;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+    
+}
+
+.sec1_div2{
+    background-color:transparent;
+    width: 474.9854431152344px;
+    height: 303.3608703613281px;
+    margin-right: 120px;
+    
+}
+
+input[type=text] {
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+}
+
+#btn {
+    float: left;
+    width: 20%;
+    padding: 12px;
+    background: rgb(14, 81, 204);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+form p{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 40;
+    align-items: center;
+    justify-content: space-around;
+}
